@@ -9,8 +9,3 @@ class UserViewSet(viewsets.ModelViewSet):
 	queryset = User.objects.all()
 	serializer_class = UserSerializer
 	
-    # @action(detail=True, methods=['post'])
-    # def like(self, request, pk=None):
-    # 	blogpost = self.get_object()
-    # 	# Add logic to like the blog post
-    # 	return Response({'status': 'blog post liked'})

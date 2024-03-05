@@ -10,7 +10,7 @@ class User(models.Model):
     phone = models.CharField(max_length=100)
     roles = (
       (1, "Admin"),
-       (2, "Regular"),
+      (2, "Regular"),
     )
     role = models.IntegerField(choices=roles, default=2)
 
