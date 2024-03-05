@@ -18,7 +18,7 @@ Can be used in vscode devcontainer or codespaces ( already created devcontainer.
 
 A very simple functional, but unstyled crud editor for users. Using standard Django models/views/templates. 
 
-<./users/>
+http://127.0.0.1:8000/users/
 
 ## React UI with REST endpoint
 
@@ -26,16 +26,16 @@ React UI to demenstate using React with Django RESTfull views.
 
 FYI: no router.
 
-<./>
+http://127.0.0.1:8000/
 
 
 ## Possible code space still running
 
 This instance may auto stop.
 
--  [React](https://obscure-dollop-6v9gv7p6vp24rq-8000.app.github.dev/)
+-  [React](https://supreme-potato-vp6vp75xqjh6wpq-8000.app.github.dev/)
 
--  [Django Templates](https://obscure-dollop-6v9gv7p6vp24rq-8000.app.github.dev/users/)
+-  [Django Templates](https://supreme-potato-vp6vp75xqjh6wpq-8000.app.github.dev/users/)
 
 
 Of course a lot more could have been done from validation, styling, authentication, etc. Or fixes such as only the work memeber and not also user. I think this is a good example with the limited time I had avalible. 
